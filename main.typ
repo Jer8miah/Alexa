@@ -19,3 +19,5 @@
 
   ]
 ])
+
+#include "/frontmatter.typ"
