@@ -6,7 +6,7 @@
 #show: notebook.with(theme: radial-theme, cover: align(center + horizon)[
   #text(size: 24pt, font: "Tele-Marines")[
     #text(size: 28pt)[
-      Engineering Notebook
+      VRC Engineering Notebook
     ]
 
     //#image("./assets/53E-logo-jank.png", height: 70%)
