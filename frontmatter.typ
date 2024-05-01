@@ -17,6 +17,68 @@
 #create-frontmatter-entry(
   title: "About this Notebook",
 )[
+  This notebook was written with a programming language called Typst. We write
+  instructions about formatting in Typst, and they they are rendered into a pdf.
+  Here are some examples of what that looks like:
+
+  ```typ
+  Just some ordinary text // Turns into text
+
+  #grid( // Creates a grid layout
+    columns: (1fr, 1fr),
+    gutter: 20pt,
+    pro-con(
+      pros: [ // Turns into a table of pros and cons (appears on the right side)
+        - good
+        - better ],
+      cons: [
+        - bad
+        - worse
+      ],
+    ),
+    [
+      Some content on the left side *Bold content on the left side*
+    ],
+  )
+  ```
+
+This would would render into:
+
+Just some ordinary text // Turns into text
+
+#grid( // Creates a grid layout
+  columns: (1fr, 1fr),
+  gutter: 20pt,
+  pro-con(
+    pros: [ // Turns into a table of pros and cons (appears on the right side)
+      - good
+      - better ],
+    cons: [
+      - bad
+      - worse
+    ],
+  ),
+  [
+    Some content on the left side
+
+    *Bold content on the left side*
+  ],
+)
+  == Source code
+
+  #grid(
+    columns: (1fr, 1fr),
+    gutter: 20pt,
+    [
+      The source code for this notebook is available on GitHub at the following URL: #link("https://github.com/Jer8miah/Alexa").
+      Alternatively, you can use the QR code to the left.
+    ], 
+     qrcode("https://github.com/Jer8miah/Alexa", size: 5pt),
+
+  )
+
+  #colbreak()
+
   == How to Read Entries
 
 Entries all have a type, which is displayed in the top left corner, as well as
