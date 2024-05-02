@@ -1,4 +1,3 @@
-//#import "@local/notebookinator:1.0.0": *
 #import "./packages.typ": notebookinator
 #import notebookinator: *
 #import themes.radial: radial-theme, components
@@ -24,8 +23,7 @@ align(center + horizon)[
   ]
 ], team-name: "99905X")
 
-#create-frontmatter-entry(title: "Table of Contents")[
-  #components.toc()
-]
+
 
 #include "/frontmatter.typ"
+#include "entries/entries.typ"

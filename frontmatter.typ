@@ -102,6 +102,9 @@ Here are the existing types:
 )
 ]
 
+#create-frontmatter-entry(title: "Table of Contents")[
+  #toc()
+]
 
 
 
