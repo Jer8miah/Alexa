@@ -7,7 +7,7 @@
 align(center + horizon)[
 
   #text(size: 24pt, font: "Tele-Marines")[
-    
+    #v(3em)
     #text(size: 28pt)[
       VRC Engineering Notebook  
     ]
@@ -17,13 +17,15 @@ align(center + horizon)[
     
     2024 - 2125
     #line(length: 50%, stroke: (thickness: 2.5pt, cap: "round"))
-    High Stakes
+    High Stake
 
 
   ]
 ], team-name: "99905X")
 
-
+#create-frontmatter-entry(title: "Table of Contents")[
+  #components.toc()
+]
 
 #include "/frontmatter.typ"
 #include "entries/entries.typ"

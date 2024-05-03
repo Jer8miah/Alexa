@@ -72,10 +72,10 @@ Just some ordinary text // Turns into text
     //gutter: 20pt,
     [
       = _Source Code_
-      The source code for this notebook is available on GitHub at the following URL: #link("https://github.com/Jer8miah/Alexa").
+      The source code for this notebook is available on GitHub at the following URL: #link("https://github.com/Jer8miah/HighStakes-Notebook").
       Alternatively, you can use the QR code to the left.
     ], figure(
-      qrcode("https://github.com/Jer8miah/Alexa", size: 0.2em),
+      qrcode("https://github.com/Jer8miah/HighStakes-Notebook", size: 0.2em),
       caption: "Scan to view the source code on GitHub"), 
     [
     = _The Notebookinator_
@@ -126,12 +126,12 @@ Here are the existing types:
   [#box(baseline: 30%, label(label: "test", size: 1.7em)) #h(10pt) *Test the solution*],
   [#box(baseline: 30%, label(label: "management", size: 1.7em)) #h(10pt) *Team management*],
   [#box(baseline: 30%, label(label: "notebook", size: 1.7em)) #h(10pt) *Notebook Metadata*],
+  
+  
 )
 ]
 
-#create-frontmatter-entry(title: "Table of Contents")[
-  #toc()
-]
+
 
 
 
