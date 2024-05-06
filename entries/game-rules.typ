@@ -5,7 +5,7 @@
 #show: create-body-entry.with(
   title: "Game Rules",
   type: "identify",
-  date: datetime(year: 2024, month: 4, day: 27),
+  date: datetime(year: 2024, month: 5, day: 5),
 )
 
 = Field Elements #footnote(
