@@ -8,5 +8,6 @@
   title: "Introduction",
   type: "notebook",
   date: datetime(year: 1, month: 1, day: 1),
-  author: "Jeremiah Douglas",
+  author: "",
 )
+ lorem(50)

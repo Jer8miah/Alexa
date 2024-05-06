@@ -6,7 +6,7 @@
   title: "Post Reveal Thoughts",
   type: "brainstorm",
   date: datetime(year: 2024, month: 4, day: 27),
-  author: "Jeremiah Douglas",
+  author: "",
   witness: "",
   
 )
