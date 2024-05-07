@@ -15,7 +15,7 @@ align(center + horizon)[
     
     //#image("./assets/53E-logo-jank.png", height: 70%)
     
-    2024 - 2125
+    2024 - 2025
     #line(length: 50%, stroke: (thickness: 2.5pt, cap: "round"))
     High Stake
 

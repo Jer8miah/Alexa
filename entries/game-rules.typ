@@ -8,12 +8,12 @@
   date: datetime(year: 2024, month: 5, day: 5),
 )
 
-= Field Elements #footnote(
+= Field Overview #footnote(
   [Images sourced from: #link("https://content.vexrobotics.com/docs/2024-2025/v5rc-high-stakes/VRC-HighStakesManual-2425-0.1release.pdf", "Game Manual",
   )],
 )
 
-In this section we will analyze VRC High Stakes game elements and rules.
+The VRC High Stakes field is played in a 12' x 12' field by two allince, one red and one blue, who compete in matches consisting of a fifteen second Autonmous Period followed by a one minute and forty-five second Driver Controlled Period. The object of the game is to attain a higher score than the opposing alliance by scoring Rings on Stakes, placing Moblie Goals, and climbing at the end of the match.
 
 #align(center, [
   #image("/assets/field-elements/Full-Field.png", )
@@ -25,7 +25,7 @@ In this section we will analyze VRC High Stakes game elements and rules.
   columns: (1fr, 1fr),
   
   gutter: 40pt,
-  image("/assets/field-elements/rings.png", ),
+  
   par([
     == Rings
     The ring object has an inner diameter of 3 inches, an outer diameter of 7 inches, and a thickness of 2 inches.
@@ -34,6 +34,7 @@ In this section we will analyze VRC High Stakes game elements and rules.
 
     Robots may only posses two rings at a time (*<\SG6>* in the Game Manual), excluding rings if they're possessed in a mogo. This means intakes for rings will be limeted to two rings at a time.
   ], justify: true),
+  image("/assets/field-elements/rings.png", ),
 
   image("/assets/field-elements/marked-mogo.png", ),
   par([
@@ -44,6 +45,14 @@ In this section we will analyze VRC High Stakes game elements and rules.
 
     Robots may only posses one mogo at a time (*<\SG6>* in the Game Manual). This means clamps for mogos will be limeted to one mogo at a time.
   ], justify: false),
+  
+  par(
+    [
+      == Allince Wall Stakes
+      The allince wall stakes from the floor to the top of the wall are 16.72 inches tall, the usable stake is 3.68. Meaning only 2 of the same colored rings can be scored. 
+    ]
+  ), 
+  image("/assets/field-elements/marked-a-goal.png", ),
 )
 
 
