@@ -18,7 +18,7 @@
   title: "About this Notebook",
 )[
   This notebook was written with a programming language called Typst. We write
-  instructions about formatting in Typst, and they they are rendered into a pdf.
+  instructions about formatting in Typst, and they are rendered into a pdf.
   Here are some examples of what that looks like:
 
   ```typ
@@ -64,20 +64,47 @@ Just some ordinary text // Turns into text
     *Bold content on the left side*
   ],
 )
-  == Source code
+  #colbreak()
 
   #grid(
-    columns: (1fr, 1fr),
-    gutter: 20pt,
+    columns: 2,
+    rows: 3,
+    //gutter: 20pt,
     [
-      The source code for this notebook is available on GitHub at the following URL: #link("https://github.com/Jer8miah/Alexa").
+      = _Source Code_
+      The source code for this notebook is available on GitHub at the following URL: #link("https://github.com/Jer8miah/HighStakes-Notebook").
       Alternatively, you can use the QR code to the left.
-    ], 
-     qrcode("https://github.com/Jer8miah/Alexa", size: 5pt),
-
+    ], figure(
+      qrcode("https://github.com/Jer8miah/HighStakes-Notebook", size: 0.2em),
+      caption: "Scan to view the source code on GitHub"), 
+    [
+    = _The Notebookinator_
+    Another benefit of using Typst is that we can use libraries like _The Notebookinator_ which
+    provides tools and examples for creating visually appealing notebooks with
+    typst.
+  ],
+  figure(
+    qrcode("https://github.com/BattleCh1cken/notebookinator", size: 0.2em),
+    caption: [_The Notebookinator_ Github repository],
+  ),
+  [
+    = _Insperation_
+    A lot of this notebook’s formatting was inspired by Felix Hass of
+      53E’s notebook, which served as a great example of how to use
+      The Notebookinator. He was also very willing to answer any
+      questions we had about the notebook, and we are very grateful
+      for his help.
+  ], figure(
+    qrcode("https://github.com/Area-53-Robotics/53E-Notebook", size: 0.2em),
+    caption: [_53E’s Notebook_ Github repository]
+  )
+  
+    
   )
 
   #colbreak()
+
+
 
   == How to Read Entries
 
@@ -99,8 +126,11 @@ Here are the existing types:
   [#box(baseline: 30%, label(label: "test", size: 1.7em)) #h(10pt) *Test the solution*],
   [#box(baseline: 30%, label(label: "management", size: 1.7em)) #h(10pt) *Team management*],
   [#box(baseline: 30%, label(label: "notebook", size: 1.7em)) #h(10pt) *Notebook Metadata*],
+  
+  
 )
 ]
+
 
 
 
