@@ -8,7 +8,7 @@
     #text(size: 28pt)[
       VRC Engineering Notebook  
     ]
-    
+    `
 
     //#image("./assets/53E-logo-jank.png", height: 70%)
 
