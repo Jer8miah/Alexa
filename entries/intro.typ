@@ -7,7 +7,13 @@
 #show: create-body-entry.with(
   title: "Introduction",
   type: "notebook",
-  date: datetime(year: 1, month: 1, day: 1),
+  date: datetime(month: 05, day: 30, year: 2024),
   author: "",
 )
- lorem(50)
+ 
+Our team is 99905X, and we are team comprised of different levels of experience with VEX. We were a team that started in 2023, during VRC," Over Under." This year we have currently 6 members: Jeremiah Douglas, Kaia Vidal, Kader Reavis, Connor Madison, Alexander Dunn, and Ariah Shelton.
+par(
+    [
+      == The Team
+      
+  
